@@ -1,63 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
     <title>Contacto</title>
 </head>
+
 <body>
     <header>
-  <!-- inico nav bar-->
-  <nav class="navbar navbar-expand-md navbar-dark barra">
-    <!-- Brand -->
-    <a class="logo" href="../index.html">Kle Photography</a>
-    <!-- Toggler/collapsibe Button -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <!-- Navbar links -->
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav container fluid">
-            <li class="nav-item">
-                <a class="nav-link" href="../pages/galeria.html">Galería</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="../pages/about.html">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
-            </li>
-        </ul>
-    </div>
-</nav>
-</header>
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-4 main">texto</div>
-        <div class="col-8 aside2">form</div>
-    </div>
-</div>
+        <!-- inico nav bar-->
+        <nav class="navbar navbar-expand-md navbar-dark barra">
+            <!-- Brand -->
+            <a class="logo" href="../index.html">Kle Photography</a>
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav container fluid">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/galeria.html">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4 main">
+                ¿Quieres una sesión fotográfica para tu proyecto?
+                Tengo la cámara lista y dispuesta a viajar.
+                <h4> Klephotography@gmail.com
 
-    <form>
-        <fieldset>
-        <label for="name">Nombre</label>
-        <input type="text" name="" id="name">
-        <label for="surname">Apellidos</label>
-        <input type="text" name="" id="surname">
-        <label for="email">Correo electrónico</label>
-        <input type="email" name="" id="email">
-        <label for="message">Mensaje</label>
-        <input type="text" name="" id="message">
-        <input type="submit" value="Enviar">
-    </fieldset>
-    </form>
-    
+                </h4>
+                <h5>
+                    +351 911 025 333
+                </h5>
+            </div>
+
+            <div class="col-8 aside2">
+                <form>
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Nombre">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Apellidos">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1"></label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
 </body>
 <footer>
     <div class="redes">
@@ -78,4 +99,5 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
     integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous">
 </script>
+
 </html>
